@@ -1,0 +1,15 @@
+{
+	"name": "wp-coauthors-plus-3.7-4.0-author-bug",
+	"description": "Test repository to reproduce a wrong author bug introduced in Co-Authors Plus 4.0",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"wp-env:start": "wp-env start",
+		"wp-env:stop": "wp-env stop",
+		"wp-env:destroy": "wp-env destroy",
+		"wp-env:clean": "wp-env clean"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^11.8.1"
+	}
+}
