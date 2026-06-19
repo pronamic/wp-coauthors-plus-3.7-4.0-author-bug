@@ -24,10 +24,10 @@ You can activate each version independently in the WordPress admin to test and c
 To create test author users for testing, run:
 
 ```bash
-wp-env run cli wp user create author1 author1@example.test --user_pass=password --role=author
-wp-env run cli wp user create author2 author2@example.test --user_pass=password --role=author
-wp-env run cli wp user create author3 author3@example.test --user_pass=password --role=author
-wp-env run cli wp user list --role=author --format=table
+npx wp-env run cli wp user create author1 author1@example.test --user_pass=password --role=author
+npx wp-env run cli wp user create author2 author2@example.test --user_pass=password --role=author
+npx wp-env run cli wp user create author3 author3@example.test --user_pass=password --role=author
+npx wp-env run cli wp user list --role=author --format=table
 ```
 
 **Credentials:**

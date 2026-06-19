@@ -1,10 +1,12 @@
 {
 	"core": null,
 	"plugins": [
+		".",
 		"solvebeam/solvebeam-quick-login-for-wp-env"
 	],
 	"mappings": {
-		"wp-content/plugins/co-authors-plus-4-0": "https://downloads.wordpress.org/plugin/co-authors-plus.4.0.2.zip"
+		"wp-content/plugins/co-authors-plus.3.7.0": "./plugins/co-authors-plus.3.7.0",
+		"wp-content/plugins/co-authors-plus.4.0.2": "./plugins/co-authors-plus.4.0.2"
 	},
 	"testsEnvironment": false
 }
